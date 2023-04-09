@@ -1,3 +1,6 @@
+Dockerrized Terminal Details
+
+![recipes](https://user-images.githubusercontent.com/96966248/230778915-5d79526c-6563-4737-bc8b-db5da179eab1.png)
 
 # Getting Started with Create React App
 
