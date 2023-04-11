@@ -7,7 +7,7 @@ function Recipe() {
   const [details, setDetails] = useState({});
   const [activeTab, setActiveTab] = useState("instructions");
 
-  // eslint-disable-next-line
+  
   const fetchDetails = async () => {
     const data = await fetch(
       `https://api.spoonacular.com/recipes/${params.name}/information?apiKey=${process.env.REACT_APP_API_KEY}`
@@ -15,6 +15,7 @@ function Recipe() {
     const detailData = await data.json();
     setDetails(detailData);
   };
+  // eslint-disable-next-line
 
   useEffect(() => {
     fetchDetails();
