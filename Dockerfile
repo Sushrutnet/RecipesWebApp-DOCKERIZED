@@ -14,4 +14,6 @@ RUN npm install react-scripts@4.0.3 -g --silent
 
 COPY . ./
 
-CMD ["npm", "start"]
+EXPOSE 8000
+
+CMD ["npm", "start", "0.0.0.0:8000"]
